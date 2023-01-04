@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ufx-ir-9wU">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TelaAzul-->
+        <scene sceneID="Qbv-fk-BqM">
+            <objects>
+                <viewController id="T3b-SZ-VJe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ln-3N-F3H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="cHT-Me-93q"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TelaAzul" image="pencil.circle.fill" catalog="system" id="MzG-TJ-lmj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zHO-JS-ur1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="89"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FqS-Zf-MKc">
+            <objects>
+                <viewController id="Kkn-NB-fxf" customClass="ViewController" customModule="StoryboardTarde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Yj-TN-YVT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pOQ-lN-C7f">
+                                <rect key="frame" x="159" y="316" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQd-Uo-dva">
+                                <rect key="frame" x="184" y="492" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="FEU-Yg-0dg" kind="show" identifier="anycolor" id="7lD-ll-TvY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pOQ-lN-C7f" firstAttribute="leading" secondItem="fOf-Ui-Z40" secondAttribute="leading" constant="159" id="4bJ-AK-iVM"/>
+                            <constraint firstItem="pOQ-lN-C7f" firstAttribute="centerX" secondItem="zQd-Uo-dva" secondAttribute="centerX" id="KRh-cn-BJf"/>
+                            <constraint firstItem="pOQ-lN-C7f" firstAttribute="top" secondItem="fOf-Ui-Z40" secondAttribute="top" constant="272" id="Rjq-dx-z5K"/>
+                            <constraint firstItem="pOQ-lN-C7f" firstAttribute="centerX" secondItem="8Yj-TN-YVT" secondAttribute="centerX" id="f0X-Wi-6ji"/>
+                            <constraint firstItem="zQd-Uo-dva" firstAttribute="top" secondItem="pOQ-lN-C7f" secondAttribute="bottom" constant="98" id="qaH-5p-K1X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fOf-Ui-Z40"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3hG-2S-ASf"/>
+                    <connections>
+                        <outlet property="txtColor" destination="pOQ-lN-C7f" id="iJR-JE-n1p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="968-KS-jII" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1710.144927536232" y="-178.125"/>
+        </scene>
+        <!--TelaLaranja-->
+        <scene sceneID="JVJ-Pt-5et">
+            <objects>
+                <viewController id="Tuf-RY-vKo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ACn-EZ-mTE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="m94-cj-PWa"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TelaLaranja" image="pencil.circle" catalog="system" id="fBI-s9-OkR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wTz-8k-XXc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="-560"/>
+        </scene>
+        <!--View Controller Color-->
+        <scene sceneID="SC5-ov-8Nj">
+            <objects>
+                <viewController id="FEU-Yg-0dg" customClass="ViewControllerColor" customModule="StoryboardTarde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="glC-LA-HNV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCW-F3-vuO">
+                                <rect key="frame" x="158" y="423" width="99" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FCW-F3-vuO" firstAttribute="top" secondItem="LzK-mf-ARt" secondAttribute="top" constant="335" id="99r-3k-HjI"/>
+                            <constraint firstItem="FCW-F3-vuO" firstAttribute="centerY" secondItem="glC-LA-HNV" secondAttribute="centerY" id="OWI-F1-eys"/>
+                            <constraint firstItem="FCW-F3-vuO" firstAttribute="leading" secondItem="LzK-mf-ARt" secondAttribute="leading" constant="158" id="ZnL-fH-zoX"/>
+                            <constraint firstItem="FCW-F3-vuO" firstAttribute="centerX" secondItem="glC-LA-HNV" secondAttribute="centerX" id="kPX-FA-W1e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LzK-mf-ARt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="x3v-fP-GZz"/>
+                    <connections>
+                        <outlet property="lblColor" destination="FCW-F3-vuO" id="3LE-KS-OGQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c5W-9D-YU5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2463.768115942029" y="-178.125"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ar3-uP-nJ8">
+            <objects>
+                <tabBarController id="ufx-ir-9wU" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h91-Mt-PTW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Tuf-RY-vKo" kind="relationship" relationship="viewControllers" id="yMC-in-PxR"/>
+                        <segue destination="T3b-SZ-VJe" kind="relationship" relationship="viewControllers" id="lrm-E6-md6"/>
+                        <segue destination="gKz-dK-aQ4" kind="relationship" relationship="viewControllers" id="kGu-4N-1OE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oCW-ZT-SEi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-767" y="-236"/>
+        </scene>
+        <!--TrocaCor-->
+        <scene sceneID="Bka-HH-xTF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gKz-dK-aQ4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="TrocaCor" id="zFO-SM-Sgc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f26-eN-W0R">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Kkn-NB-fxf" kind="relationship" relationship="rootViewController" id="fzq-yG-a7K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HaM-qj-wPN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800.00000000000011" y="-178.125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pencil.circle" catalog="system" width="64" height="60"/>
+        <image name="pencil.circle.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
